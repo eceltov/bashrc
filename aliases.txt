@@ -11,6 +11,8 @@ alias gd='git diff'
 alias dcu='docker compose up'
 alias dcd='docker compose down'
 alias dcd='docker compose down'
+# activates a python venv
+alias va='source venv/bin/activate'
 # counts loc in a git repository
 alias glines='git ls-files | xargs cat | wc -l'
 # counts loc in a git repository and displays loc for each file
