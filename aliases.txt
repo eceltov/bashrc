@@ -2,6 +2,7 @@ alias gp='git push'
 alias gpu='git push upstream develop'
 alias gpll='git pull'
 alias gpllu='git pull upstream develop'
+alias gcln='git clone'
 alias gc='git commit -m'
 alias ga='git add'
 alias grstr='git restore'
@@ -17,4 +18,5 @@ alias va='source venv/bin/activate'
 alias gloc='git ls-files | xargs cat | wc -l'
 # counts loc in a git repository and displays loc for each file
 alias glocv='git ls-files | xargs wc -l'
+
 
