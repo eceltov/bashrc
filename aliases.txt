@@ -17,5 +17,5 @@ alias va='source venv/bin/activate'
 alias gloc='git ls-files | xargs cat | wc -l'
 # counts loc in a git repository and displays loc for each file
 alias glocv='git ls-files | xargs wc -l'
-
-
+# free stale memory used by wsl
+alias memfree='sync; echo 3 | sudo tee /proc/sys/vm/drop_caches; echo 1 | sudo tee /proc/sys/vm/compact_memory'
